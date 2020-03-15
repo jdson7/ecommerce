@@ -11,3 +11,4 @@ Technologies, plugins and frameworks used:
 - JQuery
 - FontAwesome - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 - Noty - A Dependency-free notification library
+- Bootstrap FileInput

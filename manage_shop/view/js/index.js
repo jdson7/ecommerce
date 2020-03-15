@@ -5,10 +5,11 @@ $(document).ready(function(){
     });
 
     $('#addProduct').on('click', function(){
-        new Noty({
-            type: 'success',
-            text: 'Adicionar produto.'
-        }).show();
+        $('#addProductModal').load('modal/addProduct.php', function(){
+            $('.save_product').on('click', function(){
+                saveProduct();
+            })
+        }).modal();        
     });
 
     loadCategories();
@@ -169,4 +170,8 @@ function deleteCategory(id){
         ]
       });
     n.show();
+}
+
+function saveProduct(){
+
 }

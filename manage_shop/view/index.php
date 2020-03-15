@@ -195,6 +195,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/ecommerce/config/application.php';
 
   <!-- Modal -->
   <div class="modal" id="addCategoryModal" tabindex="-1" role="dialog" aria-labelledby="addCategoryModal" aria-hidden="true"></div>
+  <div class="modal" id="addProductModal" tabindex="-1" role="dialog" aria-labelledby="addProductModal" aria-hidden="true"></div>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
