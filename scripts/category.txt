@@ -1,0 +1,13 @@
+CREATE SCHEMA category;
+
+CREATE TABLE category.category
+(
+   id serial NOT NULL, 
+   name character varying(128) NOT NULL, 
+   CONSTRAINT pk_category PRIMARY KEY (id)
+) 
+WITH (
+  OIDS = FALSE
+)
+;
+
